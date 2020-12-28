@@ -36,7 +36,8 @@ $task.fetch(myRequest).then(response => {
 		$notify(obj.wname, obj.jdPrice, "")
 		console.log(JSON.stringify(filterdList));
 	} else {
-		$notify("无结果", "未找到满足要求的显卡", "")
+		// $notify("无结果", "未找到满足要求的显卡", "")
+		console.log("No Result...")
 	}
 	// console.log(JSON.stringify(filterdList));
     $done();
